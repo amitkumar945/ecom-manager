@@ -1,0 +1,82 @@
+:root {
+    --primary: #00d4ff;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.sidebar {
+    background: #1e2937;
+    border-right: 1px solid #334155;
+}
+
+.nav-link {
+    border-radius: 12px;
+    margin-bottom: 4px;
+    transition: all 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    background: rgba(0, 212, 255, 0.15);
+    color: #00d4ff !important;
+}
+
+.card {
+    background: #1e2937;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
+}
+
+.table {
+    background: #1e2937;
+}
+
+.table thead {
+    background: #0f172a;
+    position: sticky;
+    top: 0;
+}
+
+.badge {
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+}
+
+.modal-content {
+    background: #1e2937;
+    border-radius: 16px;
+    border: none;
+    color: #e2e8f0;
+}
+
+.form-control, .form-select {
+    background: #334155;
+    border: none;
+    color: #e2e8f0;
+    border-radius: 12px;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.3);
+    background: #334155;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #00d4ff, #0099cc);
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.header-glow {
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
+}
+
+.status-active { background: #10b981; }
+.status-pending { background: #f59e0b; }
+.status-cancelled { background: #ef4444; }
